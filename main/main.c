@@ -117,7 +117,7 @@ static void send_packet(uint8_t axis, int8_t value)
     for (int i = 0; i < 3; i++)
         putchar_raw(pkt[i]);
 }
-
+// kdkdkdk
 void mpu6050_task(void *p)
 {
     gpio_init(PIN_INSTR_MPU);

@@ -107,7 +107,7 @@ def serial_ports():
         ports = glob.glob('/dev/tty.*')
     else:
         raise EnvironmentError('Plataforma não suportada para detecção de portas seriais.')
-
+# jjdjdj
     result = []
     for port in ports:
         try:
